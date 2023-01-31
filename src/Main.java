@@ -34,7 +34,7 @@ public class Main {
                 if (game.getProgress().equals(game.getMovie())) {
                     // Updating status.
                     userWon = true;
-                    System.out.println("\nYou win! It was \"" + game.getMovie() + "\".");
+                    System.out.println("\nYou win!\nYou have guessed '" + game.getMovie() + "' correctly.");
                     break;
                 }
             }
